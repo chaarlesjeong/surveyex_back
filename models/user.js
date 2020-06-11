@@ -3,11 +3,11 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose;
 const userSchema = new Schema({
   gender: {
-    type: Number,
+    type: String,
     required: true,
   },
   animal: {
-    type: Number,
+    type: String,
     required: true,
   },
 });
